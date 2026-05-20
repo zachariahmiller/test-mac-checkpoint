@@ -62,4 +62,4 @@ validate:
 	@echo "==> all pods ready."
 
 # ── e2e ────────────────────────────────────────────────────────────────────────
-e2e: create clean restore validate
+e2e: deploy-bundle create clean restore validate
